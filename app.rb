@@ -20,7 +20,7 @@ end
 post "/restaurants" do
   restaurant_name = params[:name]
   restaurant_address = params[:address]
-  binding.pry
+  # binding.pry
   Restaurant.create!(name: restaurant_name, address: restaurant_address)
 
   redirect "/"
