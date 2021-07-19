@@ -4,5 +4,5 @@ require "sinatra/reloader"
 require "sinatra/activerecord"
 
 get "/" do
-  "Hello world!"
+  "Hello world! :)"
 end
